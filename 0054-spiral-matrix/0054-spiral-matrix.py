@@ -1,5 +1,5 @@
-class Solution:
-    def spiralOrder(self, matrix: list[list[int]]) -> list[int]:
+class Solution(object):
+    def spiralOrder(self, matrix):
         n=len(matrix)
         m=len(matrix[0])
 
@@ -48,3 +48,4 @@ class Solution:
             colstart+=1
 
         return ans
+        
