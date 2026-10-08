@@ -1,7 +1,11 @@
-class Solution(object):
-    def reverseString(self, s):
+class Solution:
+    def reverseString(self, s: list[str]) -> None:
+        """
+        Do not return anything, modify s in-place instead.
+        """
         return s.reverse()
 
         #by slicing:
         # s = s[::-1]  #actually ye work nhi kr rha hai qki syd ye iske reference ko mana kr rha hai pr ye bhi shi method hai
+        
         
